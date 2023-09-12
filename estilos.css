@@ -1,3 +1,4 @@
+
 /* Estilos CSS */
 body {
     font-family: Arial, sans-serif;
@@ -33,15 +34,46 @@ footer {
     color: #fff;
 }
 
-#header img {
+header img {
 
     width: 180px; 
     height: 160px; 
     border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 ::marker {
     color: #F49AC2;
     font-size: 1.2em;
-  }
-  
+}
+
+main p {
+    max-width: 500px;
+}
+
+.sobreMi p {
+    margin-bottom: 40px;
+}
+
+.experiencia p {
+    margin-bottom: 40px;
+}
+
+.redes {
+margin-bottom: 45px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
