@@ -39,3 +39,9 @@ footer {
     height: 160px; 
     border-radius: 50%;
 }
+
+::marker {
+    color: #F49AC2;
+    font-size: 1.2em;
+  }
+  
